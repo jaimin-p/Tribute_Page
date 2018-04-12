@@ -1,0 +1,100 @@
+
+
+/* For Internet Explorer 7,8,9 */
+.img-fluid{
+  width: 100% \9;
+}
+
+
+hr{
+  visibility: hidden;
+}
+
+.quote{
+  color: orange;
+}
+
+
+.main-heading{
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    color: #831111;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 280%;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+
+.textshadow {
+  text-shadow: 0 4px 2px rgb(68, 65, 65,0.3);
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    overflow: hidden;
+}
+
+.footerimage {
+  width: 50%;
+  margin: auto;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+@media screen and (max-width: 600px) {
+  .main-heading{
+    font-size: 5vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .timeline{
+    font-size: 6vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .timelineText{
+    font-size: 4vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .quote{
+    font-size: 3vh;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .captionText{
+    font-size: 3vh;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card-text{
+    font-size: 3vh;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card-title{
+    font-size: 3vh;
+  }
+}
+
+@media (max-width: 200px) and (min-width: 80px) {
+  .responsive-width {
+    font-size: 2vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .responsive-width {
+    font-size: 5vh;
+  }
+}
+
